@@ -10,7 +10,9 @@ export default function App() {
       <p className="message">Hello</p>
 
       <div className="buttons">
-        <button>Previous</button>
+        <button style={{ backgroundColor: "#7950f2", color: "#fff" }}>
+          Previous
+        </button>
         <button>Next</button>
       </div>
     </div>
