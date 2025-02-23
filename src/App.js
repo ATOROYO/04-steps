@@ -26,7 +26,7 @@ export default function App() {
 
   return (
     <div>
-      {
+      {isOpen && (
         <div className="steps">
           <div className="numbers">
             <div className={step >= 1 ? "active" : ""}>1</div>
@@ -53,7 +53,7 @@ export default function App() {
             </button>
           </div>
         </div>
-      }
+      )}
     </div>
   );
 }
