@@ -18,8 +18,8 @@ export default function App() {
     if (step < 3) setStep(step + 1);
 
     // BAD PRACTICE: Directly mutating state
-    test.name = "Fred";
-    setStep({ name: "Fred" });
+    // test.name = "Fred";
+    // setStep({ name: "Fred" });
   }
 
   return (
