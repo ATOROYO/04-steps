@@ -14,7 +14,7 @@ export default function App() {
   }
 
   function handleNext() {
-    alert("Next");
+    setStep(step + 1);
   }
 
   return (
@@ -39,8 +39,7 @@ export default function App() {
         </button>
         <button
           style={{ backgroundColor: "#7950f2", color: "#fff" }}
-          onClick={() => alert("Next")}
-          onMouseEnter={handleNext}
+          onClick={handleNext}
         >
           Next
         </button>
