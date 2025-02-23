@@ -11,6 +11,10 @@ export default function App() {
     alert("Previous");
   }
 
+  function handleNext() {
+    alert("Next");
+  }
+
   return (
     <div className="steps">
       <div className="numbers">
@@ -34,6 +38,7 @@ export default function App() {
         <button
           style={{ backgroundColor: "#7950f2", color: "#fff" }}
           onClick={() => alert("Next")}
+          onMouseEnter={handleNext}
         >
           Next
         </button>
