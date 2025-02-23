@@ -32,8 +32,7 @@ export default function App() {
       <div className="buttons">
         <button
           style={{ backgroundColor: "#7950f2", color: "#fff" }}
-          onClick={() => alert("Previous")}
-          onMouseEnter={handlePrevious}
+          onClick={handlePrevious}
         >
           Previous
         </button>
