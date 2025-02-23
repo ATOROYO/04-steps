@@ -16,6 +16,10 @@ export default function App() {
 
   function handleNext() {
     if (step < 3) setStep(step + 1);
+
+    // BAD PRACTICE: Directly mutating state
+    test.name = "Fred";
+    setStep({ name: "Fred" });
   }
 
   return (
